@@ -1,0 +1,22 @@
+button{
+    background-color: aqua;
+    width: 150px;
+}
+
+#stuff{
+    color: aliceblue;
+    background-color: grey;
+}
+
+.closed{
+    display: none;
+}
+
+.open{
+    display: block;
+}
+
+#demo{
+    background-color: grey;
+    color: azure;
+}
