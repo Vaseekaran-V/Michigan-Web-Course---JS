@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Confirmation</title>
+    <script src = "js/checkemail.js"></script>
+    <link href = "css/style.css" rel = "stylesheet">
+</head>
+<body>
+    <form method="POST">
+        <label>Preferred Email Address:
+            <input type = "email" required name = "email1" id = "email_addr">
+        </label>
+        <label>Confirm Email:
+            <input type = "email" name = "email2" id = "email_cnfrm" required onchange="checkEmail()">
+        </label>
+        <input type= "submit" value = "Submit" onclick="checkEmail()">
+    </form>
+</body>
+</html>
